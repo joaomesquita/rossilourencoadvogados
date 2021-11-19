@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {background-color: #E3E3E1;}
+
+.session {padding: 80px 0;}
+
+.session-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.session-img-alternative {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.session-img-alternative.frase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.color-primary {color: #252527 !important;}
+.color-secondary {color: #B5815B !important;}
+.color-light {color: #fff !important;}
+.color-dark {color: #000;}
+
+.bg-primary {background-color: #252527 !important;}
+.bg-secondary {background-color: #B5815B !important;}
+
+.font-40 {font-size: 40px;}
+.font-28 {font-size: 28px;}
+.font-22 {font-size: 22px;}
+.font-20 {font-size: 20px;}
+.font-18 {font-size: 18px;}
+.font-16 {font-size: 16px;}
+.font-15 {font-size: 15px;}
+.font-14 {font-size: 14px;}
+.font-13 {font-size: 13px;}
+
+.img-fundo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    padding: 66px 30px;
+    background-color: #252527;
+}
+
+.social-media {
+    height: 49px;
+    border-radius: 50px;
+    background-color: #252527;
+    margin-right: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-media:hover {
+    background-color: #B5815B !important;
+}
+
+.row-menu {margin-top: 150px;}
+
+nav.nav a.nav-link:hover {
+    background-color: #fff;
+    color: #252527 !important;
+}
+
+.menus h2, h2, h1.fw-bold {
+    padding: 8px;
+    background-color: #B5815B;
+    display: inline-block;
+}
+
+.menus a {
+    border-bottom: 2px solid #B5815B;
+}
+
+.area-atuacao.adm .header-atuacao, .area-atuacao.adm .header-atuacao h2, .area-atuacao.adm .botao-atuacao, .bg-adm {background-color: #4F6789 !important;}
+.area-atuacao.familia .header-atuacao, .area-atuacao.familia .header-atuacao h2, .area-atuacao.familia .botao-atuacao, .bg-familia {background-color: #AB3C31 !important;}
+.area-atuacao.tributario .header-atuacao, .area-atuacao.tributario .header-atuacao h2, .area-atuacao.tributario .botao-atuacao, .bg-tributario {background-color: #3A474D !important;}
+.area-atuacao.consumidor .header-atuacao, .area-atuacao.consumidor .header-atuacao h2, .area-atuacao.consumidor .botao-atuacao, .bg-consumidor {background-color: #F78630 !important;}
+.area-atuacao.trabalho .header-atuacao, .area-atuacao.trabalho .header-atuacao h2, .area-atuacao.trabalho .botao-atuacao, .bg-trabalho {background-color: #84716B !important;}
+.area-atuacao.agrario .header-atuacao, .area-atuacao.agrario .header-atuacao h2, .area-atuacao.agrario .botao-atuacao, .bg-agrario {background-color: #476C40 !important;}
+.area-atuacao.constitucional .header-atuacao, .area-atuacao.constitucional .header-atuacao h2, .area-atuacao.constitucional .botao-atuacao, .bg-constitucional {background-color: #1C5C78 !important;}
+.area-atuacao.eleitoral .header-atuacao, .area-atuacao.eleitoral .header-atuacao h2, .area-atuacao.eleitoral .botao-atuacao, .bg-eleitoral {background-color: #868475 !important;}
+.area-atuacao.financeiro .header-atuacao, .area-atuacao.financeiro .header-atuacao h2, .area-atuacao.financeiro .botao-atuacao, .bg-financeiro {background-color: #A16E5D !important;}
+.area-atuacao.penal .header-atuacao, .area-atuacao.penal .header-atuacao h2, .area-atuacao.penal .botao-atuacao, .bg-penal {background-color: #4B4B4D !important;}
+
+@media (max-width: 600px){
+    .row-menu {margin-top: 20px;}
+}
